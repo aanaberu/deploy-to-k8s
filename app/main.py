@@ -5,7 +5,7 @@ app = Flask(__name__)
 #test123 pipeline
 @app.route("/")
 def hello():
-    return "Hello this is K8 deployment demo using DAI Release and Deploy server"
+    return "Hello this is K8 deployment demo using DAI Release and Deploy server 21"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
